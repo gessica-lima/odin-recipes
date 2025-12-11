@@ -1,0 +1,129 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+body.principal {
+  background-color: #faffd1;
+  color: #2e7d32;
+}
+
+/* Título */
+.principal h1 {
+  text-align: center;
+  color: #1b5e20;
+  background-color: #a5d6a7;
+  padding: 15px;
+  border-radius: 12px;
+  border: 2px solid #1b5e20;
+  width: fit-content; /* Faz a largura se ajustar ao conteúdo */
+  margin: 30px auto;
+}
+
+/* Lista */
+body.principal ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+body.principal li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+/* Links */
+body.principal a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+  display: inline-block;
+  transition: 0.2s ease; /* Anima suavemente as mudanças no hover */
+}
+
+body.principal a:hover {
+  background-color: #2e7d32;
+  color: #ffffff;
+}
+
+body.pudim {
+  background-color: #fff3e0;
+  color: #6d4c41;
+}
+
+body.pudim {
+  padding-left: 20px;
+  margin: auto;
+}
+/* Estilo só para o p com as classes "home" e "link" */
+body.pudim .home.link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo só para o link dentro desse p */
+body.pudim .home.link a {
+  text-decoration: none;
+  color: #6d4c41;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+body.pudim .home.link a:hover {
+  color: #ffffff;
+  background-color: #6d4c41;
+}
+
+body.lasanha {
+  background-color: #fff8ec;
+  color: #ef6c00;
+  padding-left: 20px;
+  margin: auto;
+}
+
+/* Estilo só para o p com as classes "home" e "link" */
+body.lasanha .home.link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo só para o link dentro desse p */
+body.lasanha .home.link a {
+  text-decoration: none;
+  color: #ef6c00;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+body.lasanha .home.link a:hover {
+  color: #ffffff;
+  background-color: #ef6c00;
+}
+
+body.brownie {
+  background-color: #efebe9;
+  color: #3e2723;
+  padding-left: 20px;
+  margin: auto;
+}
+
+/* Estilo só para o p com as classes "home" e "link" */
+body.brownie .home.link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo só para o link dentro desse p */
+body.brownie .home.link a {
+  text-decoration: none;
+  color: #3e2723;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+body.brownie .home.link a:hover {
+  color: #ffffff;
+  background-color: #3e2723;
+}
